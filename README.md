@@ -31,7 +31,13 @@ $ ./node_modules/.bin/tsc
 
 **src/layer-docs.ts**
 
-This script outputs an HTML string to stdout. You can run the script, and redirect stdout to a file:
+This script:
+- Fetches the `layers.json` file from our CDN
+- Converts the layers object to a ViewModel
+- Converts the ViewModel to an HTML string
+- Outputs the HTML string to stdout
+
+You can run the script, and redirect stdout to a file:
 ```bash
 $ ./node_modules/.bin/ts-node ./src/layer-docs.ts > ./layer-docs.html
 ```
