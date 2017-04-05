@@ -1,0 +1,1660 @@
+
+    
+  <style>
+    html {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        margin: 0 50px;
+    }
+    h1 {
+        color: #111;
+        font-size: 2.5em;
+        font-weight: 500;
+        line-height: 1.1;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        border-bottom: #036b93 3px solid;
+    }
+    h2 {
+        margin: 30px 0 0 0;
+    }
+
+    h3 {
+        margin: 10px 0 0 0;
+    }
+
+    summary h2, summary h3 {
+        display: inline-block;
+    }
+
+    details details {
+        margin-left: 4px;
+        padding-left: 2em;
+        border-left: #036b93 3px solid;
+    }
+
+    dl {
+        padding: 0.5em;
+    }
+    dt {
+        float: left;
+        clear: left;
+        width: 100px;
+        text-align: right;
+        font-weight: bold;
+        color: #036b93;
+    }
+    dt::after {
+        content: ":";
+    }
+    dd {
+        margin: 0 0 0 110px;
+        padding: 0 0 0.5em 0;
+    }
+  </style>
+   
+    <h1>Map Layers</h1>
+    
+    <details>
+      <summary><h2>radar/sat</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Radar</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>radar</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>US, Puerto Rico</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/radar.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Radar</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>frad</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/radar.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Infrared Satellite</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>satellite</dd>
+        
+        <dt>Updates</dt>
+        <dd>30 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>North America, Central America, East Pacific, West Atlantic</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/satellite.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Global Satellite</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>sat-global</dd>
+        
+        <dt>Updates</dt>
+        <dd>2 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/sat-global.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Visible Satellite</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>sat-vis</dd>
+        
+        <dt>Updates</dt>
+        <dd>30 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>North America, Central America, East Pacific, West Atlantic</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/sat-vis-hires.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Clouds</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fsat</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fsat-nam4k.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>severe</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Alerts</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>alerts</dd>
+        
+        <dt>Updates</dt>
+        <dd>2-3 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>United States</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/alerts.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Stormcells</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>stormcells</dd>
+        
+        <dt>Updates</dt>
+        <dd>3 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>United States</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/stormcells.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Storm Reports</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>stormreports</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>United States</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/stormreports.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Lightning Strike Density</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>lightning-strike-density</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/lightning-strike-density.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Tropical</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>tropical</dd>
+        
+        <dt>Updates</dt>
+        <dd>Varies</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/tropical.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>forecasts</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Forecast Temperatures</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>ftemps</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/current-temps.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Precip Accum</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fqpf</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fqpf-nam4k.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Precip (intervals)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>frain</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/frain-nam4k.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Dew Points</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fdew-points</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/dew-points.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Humidity</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>frh</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/humidity.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Winds</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fwinds</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fwinds.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Wind Gusts</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fwind-gusts</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fwinds.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Heat Index</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fheat-index</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/heat-index.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Wind Chill</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fwind-chill</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/windchill.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Snow Accum</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fsnow</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/snowdepth-snodas.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Forecast Visibility</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fvisibility</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fvisibility.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>observations</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Temperatures</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>temperatures</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/temperatures.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Temperatures (Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>temperatures-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/temperatures-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Dew Points</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>dew-points</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/dew-points.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Dew Points (Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>dew-points-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/dew-points-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Humidity</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>humidity</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/humidity.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Humidity (Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>humidity-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/humidity-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Wind Speed</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>winds</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/winds.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Wind Speed(Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>winds-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/winds-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Wind Gusts</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>wind-gusts</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>CONUS</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/winds.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Wind Gusts(Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>wind-gusts-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/wind-gusts-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Wind Chill</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>windchill</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/windchill.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Windchill (Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>windchill-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/windchill-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Heat Index</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>heat-index</dd>
+        
+        <dt>Updates</dt>
+        <dd>1 hour</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/heat-index.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Heat-index (Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>heat-index-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/heat-index-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Feels Like</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>feels-like</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>CONUS</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/temperatures.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Feels Like (Text)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>feelslike-text</dd>
+        
+        <dt>Updates</dt>
+        <dd>15 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>CONUS</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/feelslike-text.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Precip (1 Hour)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>precip</dd>
+        
+        <dt>Updates</dt>
+        <dd>Hourly</dd>
+        
+        <dt>Regions</dt>
+        <dd>CONUS</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/precip.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Cloud Cover</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>cloud-cover</dd>
+        
+        <dt>Updates</dt>
+        <dd>Hourly</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fsat-nam4k.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Estimated Snow Depth</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>snowdepth</dd>
+        
+        <dt>Updates</dt>
+        <dd>day</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US, Canada</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/snowdepth-snodas.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Global Snow Depth</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>snowdepth-global</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/snowdepth-snodas.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Visibility</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>visibility</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fvisibility.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>outlooks</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Convective Outlook</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>convective</dd>
+        
+        <dt>Updates</dt>
+        <dd>As needed</dd>
+        
+        <dt>Regions</dt>
+        <dd>United States</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/convective.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Fires Outlook</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fires-outlook</dd>
+        
+        <dt>Updates</dt>
+        <dd>Daily</dd>
+        
+        <dt>Regions</dt>
+        <dd>United States</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fires-outlook.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Fires Outlook (Dry Lightning)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>fires-dryltg-outlook</dd>
+        
+        <dt>Updates</dt>
+        <dd>Daily</dd>
+        
+        <dt>Regions</dt>
+        <dd>United States</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/fires-outlook.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Drought Monitor</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>drought-monitor</dd>
+        
+        <dt>Updates</dt>
+        <dd>Weekly</dd>
+        
+        <dt>Regions</dt>
+        <dd>Continental US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/drought-monitor.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>ocean</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Chlorophyll</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>chlo-modis</dd>
+        
+        <dt>Updates</dt>
+        <dd>day</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/modis-chlo.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Sea Surface Temps</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>sst-modis</dd>
+        
+        <dt>Updates</dt>
+        <dd>day</dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/modis-sst.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>roads</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Road Conditions</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>road-conditions</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 minutes</dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/road-conditions.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Future Road Conditions</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>froad-conditions</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 Hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>US, Southern Canada, Northern Mexico</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/road-conditions.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Future Road Conditions (Midterm)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>froad-conditions-midterm</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 Hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>US, Southern Canada, Northern Mexico</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/road-conditions.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Future Road Conditions Index</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>froad-conditions-index</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 Hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>US, Southern Canada, Northern Mexico</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/road-conditions.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Future Road Conditions Index (Midterm)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>froad-conditions-index-midterm</dd>
+        
+        <dt>Updates</dt>
+        <dd>6 Hours</dd>
+        
+        <dt>Regions</dt>
+        <dd>US, Southern Canada, Northern Mexico</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/road-conditions.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>base maps</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Flat</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>flat</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/flat.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Blue Marble</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>blue-marble</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/blue-marble.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Terrain</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>terrain</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/terrain.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>overlays</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Admin</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>admin</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/admin.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Admin - City Names</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>admin-cities</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/cities.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>States / Provinces</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>states</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/states.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>County Lines</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>counties</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/counties.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Interstates</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>interstates</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/interstates.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Roads</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>roads</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/roads.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Rivers</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>rivers</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/rivers.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+    <details>
+      <summary><h2>masks</h2></summary>
+      
+            
+    <details>
+      <summary><h3>Flat Land Mask</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>land-flat</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/land-flat.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Blue Marble Land Mask</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>land-blue-marble</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/land-blue-marble.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Terrain Land Mask</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>land-terrain</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/land-terrain.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Water Mask</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>water-flat</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/water-flat.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Water Mask (Bathymetry)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>water-depth</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>Global</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/water-depth.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Flat Land Mask (US Only)</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>land-us-flat</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/land-us-flat.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Clip US Flat</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>clip-us-flat</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/clip-us-flat.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Clip US Blue Marble</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>clip-us-blue-marble</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/clip-us-blue-marble.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+    <details>
+      <summary><h3>Clip US Terrain</h3></summary>
+      
+    <dl>
+      
+        <dt>Code</dt>
+        <dd>clip-us-terrain</dd>
+        
+        <dt>Updates</dt>
+        <dd></dd>
+        
+        <dt>Regions</dt>
+        <dd>US</dd>
+        
+        <dt>Sample</dt>
+        <dd><img src=https://assets.aerisjs.com/map-builder/thumbs/clip-us-terrain.png /></dd>
+        
+    </dl>
+  
+    </details>
+  
+        
+    </details>
+  
+  
